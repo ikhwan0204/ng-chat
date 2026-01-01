@@ -1,11 +1,11 @@
 
 
-# Realtime Chat Application with Angular and Supabase
+## Realtime Chat Application with Angular and Supabase
 
-**Student Name:** KHAIRUL IKHWAN BIN KAMARULZAMAN
-**Student ID:** 2024257832
-**Group:** CDCS2703B
-**Lecturer:** MUHAMMAD ATIF RAMLAN 
+1. **Student Name:** [KHAIRUL IKHWAN BIN KAMARULZAMAN]
+2. **Student ID:** [2024257832]
+3. **Group:** [CDCS2703B]
+4. **Lecturer:** [MUHAMMAD ATIF RAMLAN]
 
 ## Project Background
 This project is a realtime chat application built as part of the Mobile/Web Application Development lab. It leverages **Angular (Latest Version)** for the frontend interface and **Supabase** for the backend infrastructure.
