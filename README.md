@@ -25,11 +25,11 @@ Follow these steps to set up your Supabase backend:
         ```typescript
         export const environment = {
           production: false,
-          supabaseUrl: 'YOUR_SUPABASE_URL',
-          supabaseKey: 'YOUR_SUPABASE_ANON_KEY',
+          supabaseUrl: 'https://ztdvsaueckxvuzmjaszz.supabase.co',
+          supabaseKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0ZHZzYXVlY2t4dnV6bWphc3p6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcyNTI4ODYsImV4cCI6MjA4MjgyODg4Nn0.VwBwyFCuew6KSQeZsB7_oTqKkCb70TmMH3WwFFCLkJA',
         };
         ```
-    *   Replace `'YOUR_SUPABASE_URL'` and `'YOUR_SUPABASE_ANON_KEY'` with the actual values obtained from your Supabase project.
+    *   Replace `'https://ztdvsaueckxvuzmjaszz.supabase.co'` and `'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp0ZHZzYXVlY2t4dnV6bWphc3p6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjcyNTI4ODYsImV4cCI6MjA4MjgyODg4Nn0.VwBwyFCuew6KSQeZsB7_oTqKkCb70TmMH3WwFFCLkJA'` with the actual values obtained from your Supabase project.
 
 4.  **Database Schema Setup**:
     *   Go to the "SQL Editor" in your Supabase dashboard and run the following SQL queries to set up the necessary tables and policies for the chat application.
