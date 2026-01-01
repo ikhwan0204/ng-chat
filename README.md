@@ -1,4 +1,42 @@
+
+
+# Realtime Chat Application with Angular and Supabase
+
+**Student Name:** KHAIRUL IKHWAN BIN KAMARULZAMAN
+**Student ID:** 2024257832
+**Group:** CDCS2703B
+**Lecturer:** MUHAMMAD ATIF RAMLAN 
+
+## Project Background
+This project is a realtime chat application built as part of the Mobile/Web Application Development lab. It leverages **Angular (Latest Version)** for the frontend interface and **Supabase** for the backend infrastructure.
+
+The goal of this project was to implement:
+1.  **Realtime Messaging**: Users can send and receive messages instantly without refreshing the page.
+2.  **Authentication**: Secure login using Google OAuth via Supabase Auth.
+3.  **Database Management**: Storing chat history and user profiles in a PostgreSQL database.
+
+## Technologies Used
+* **Frontend**: Angular, TypeScript, Tailwind CSS
+* **State Management**: Angular Signals
+* **Backend**: Supabase (PostgreSQL, Auth, Realtime)
+* **Hosting**: Vercel (Optional/If applicable)
+
+## Discussion & Learnings
+Building this application highlighted the efficiency of using Backend-as-a-Service (BaaS) platforms. Key learnings included:
+* **Supabase Client**: integrating the `@supabase/supabase-js` library to interact with the database directly from the frontend.
+* **Row Level Security (RLS)**: Writing policies to ensure data is only accessible to authorized users.
+* **Reactive Programming**: Using Angular Signals to efficiently update the DOM when new messages arrive via the realtime subscription.
+
+## How to Run Locally
+1.  Clone the repository.
+2.  Run `npm install` to install dependencies.
+3.  Create an `environment.ts` file with your own Supabase API URL and Anon Key.
+4.  Run `ng serve` and navigate to `http://localhost:4200`.
+
+
 # Chat2
+
+
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
 
