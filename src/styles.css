@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+/* Neo-Brutalism Theme Variables */
+:root {
+  --nb-bg: #ffffff;
+  --nb-text: #000000;
+  --nb-primary: #a3fd39; /* Neon Lime */
+  --nb-secondary: #ff90e8; /* Pink */
+  --nb-accent: #39ecfd; /* Cyan */
+  --nb-border: 3px solid #000000;
+  --nb-shadow: 5px 5px 0px #000000;
+  --nb-radius: 0px; /* Sharp corners */
+  --nb-font-family: 'Courier New', Courier, monospace; /* Or a bold sans-serif */
+}
+
+body {
+  font-family: var(--nb-font-family);
+  background-color: #f0f0f0;
+  color: var(--nb-text);
+}
+
+/* Common Neo-Brutalism Classes */
+.nb-box {
+  background-color: var(--nb-bg);
+  border: var(--nb-border);
+  box-shadow: var(--nb-shadow);
+  border-radius: var(--nb-radius);
+}
+
+.nb-btn {
+  background-color: var(--nb-primary);
+  border: var(--nb-border);
+  box-shadow: var(--nb-shadow);
+  color: var(--nb-text);
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.nb-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0px #000000;
+}
+
+.nb-input {
+  border: var(--nb-border);
+  box-shadow: 3px 3px 0px #000000;
+  padding: 10px;
+  border-radius: var(--nb-radius);
+  outline: none;
+}
+
+.nb-input:focus {
+  background-color: #fffef0;
+}
