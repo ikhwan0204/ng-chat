@@ -19,7 +19,16 @@ export class ChatService {
 
   async chatMessage(text: string) {
     try {
-      const { data, error } = await this.supabase.from('chat').insert({ text });
+      // 1. Get the current logged-in user
+      const user = await this.supabase.auth.getUser();
+      const userId = user.data.user?.id;
+
+      // 2. Insert text AND the sender ID
+      const { data, error } = await this.supabase.from('chat').insert({ 
+        text: text,
+        sender: userId 
+      });
+
       if (error) {
         alert(error.message);
       }
